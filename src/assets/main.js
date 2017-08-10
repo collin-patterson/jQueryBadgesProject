@@ -16,7 +16,7 @@ $(function() {
 
        var $course = $('<div />', {
          'class': 'course'
-       }).appendTo($badges)
+       }).appendTo($badges);
 
        $('<h3 />', {
          text: course.title
@@ -28,7 +28,7 @@ $(function() {
 
        $('<a />', {
          'class': 'btn btn-primary',
-         target: '_blank'
+         target: '_blank',
          href: course.url,
          text: 'See Course'
        }).appendTo($course);
